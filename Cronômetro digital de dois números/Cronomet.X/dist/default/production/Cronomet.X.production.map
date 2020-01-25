@@ -1,0 +1,81 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Tue Oct 17 23:50:29 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                 RES_VECT       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+            INT_HIGH_VECT       code   0x000008    program   0x000004
+                MAIN_PROG       code   0x00000c    program   0x000080
+.config_300000_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x300000    program   0x000001
+.config_300001_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x300006    program   0x000001
+.config_300008_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x300008    program   0x000001
+.config_300009_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x300009    program   0x000001
+.config_30000A_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x30000a    program   0x000001
+.config_30000B_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x30000b    program   0x000001
+.config_30000C_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x30000c    program   0x000001
+.config_30000D_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x30000d    program   0x000001
+                VARIAVEIS      udata   0x000000       data   0x000004
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x00008b      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            150 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+              ATENDE_INT0   0x00007e    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+              ATENDE_INT1   0x000084    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                ATRASO_1S   0x00003c    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+               ATRASO_2MS   0x00000c    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+             ATRASO_500MS   0x00002c    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                    CONTA   0x00004c    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                   INICIO   0x000068    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                 INT_HIGH   0x000074    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                    LOOP1   0x000040    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                    LOOP2   0x000010    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                  LOOP500   0x000030    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                    START   0x000054    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                  ATRASO1   0x000002       data     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                  ATRASO2   0x000000       data     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                ATRASO500   0x000001       data     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                   ESTADO   0x000003       data     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               ATRASO_2MS   0x00000c    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                    LOOP2   0x000010    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+             ATRASO_500MS   0x00002c    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                  LOOP500   0x000030    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                ATRASO_1S   0x00003c    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                    LOOP1   0x000040    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                    CONTA   0x00004c    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                    START   0x000054    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                   INICIO   0x000068    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                 INT_HIGH   0x000074    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+              ATENDE_INT0   0x00007e    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+              ATENDE_INT1   0x000084    program     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                  ATRASO2   0x000000       data     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                ATRASO500   0x000001       data     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                  ATRASO1   0x000002       data     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+                   ESTADO   0x000003       data     static C:\Users\hugos\Desktop\HUGO SILVEIRA SOUSA\Cronomet.X\main.asm
+
+
